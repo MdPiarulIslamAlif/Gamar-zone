@@ -1,6 +1,32 @@
 /* responsive for mobile devise start form here */
 @media screen and (max-width:576px) {
-     
+
+     nav,
+     nav>ul 
+     {
+          flex-direction: column;
+     }
+     ul li{
+          margin-bottom: 10px;
+     }
+     .main-container{
+          flex-direction: column-reverse;
+     }
+     .banner-img img{
+          width: 100%;
+          height: 500px;
+     }
+     .banner-img{
+          width: 100%;
+     }
+     .text-content{
+          width: 80%;
+          margin-top: 100px;
+     }
+     .bc-containe{
+          height: 530px;
+     }
+
      
 }
 /* responsive for mobile devise end form here */
