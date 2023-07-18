@@ -3,7 +3,8 @@
 
      nav,
      nav>ul,
-     .gamer-container  
+     .gamer-container,
+     .box-container  
      {
           flex-direction: column;
      }
@@ -34,6 +35,9 @@
           width: 98%;
           text-align: center;
      }
+     .box-item{
+          margin-bottom: 70px;
+     }
 
      
 }
@@ -42,7 +46,8 @@
 /* responsive for tab devise start form here */
   @media screen and (min-width:576px) and (max-width:992px){
      nav,
-     nav>ul
+     nav>ul,
+     .box-container 
     
      {
           flex-direction: column;
@@ -67,6 +72,9 @@
      }
      .bc-containe{
           height: 600px;
+     }
+     .box-item{
+          margin-bottom: 70px;
      }
 
      
