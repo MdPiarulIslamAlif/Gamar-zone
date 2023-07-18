@@ -2,7 +2,8 @@
 @media screen and (max-width:576px) {
 
      nav,
-     nav>ul 
+     nav>ul,
+     .gamer-container  
      {
           flex-direction: column;
      }
@@ -26,6 +27,13 @@
      .bc-containe{
           height: 530px;
      }
+     .gamer-imag{
+          width: 100%;
+     }
+     .gamer-content{
+          width: 98%;
+          text-align: center;
+     }
 
      
 }
@@ -33,6 +41,33 @@
 
 /* responsive for tab devise start form here */
   @media screen and (min-width:576px) and (max-width:992px){
+     nav,
+     nav>ul
+    
+     {
+          flex-direction: column;
+     }
+     ul li{
+          margin-bottom: 10px;
+     }
+     .main-container{
+          flex-direction: column-reverse;
+     }
+     .banner-img img{
+          width: 100%;
+          height: 500px;
+     }
+     .banner-img{
+          width: 100%;
+     }
+     .text-content{
+          width: 80%;
+          margin-top: 160px;
+          padding: 0 50px;
+     }
+     .bc-containe{
+          height: 600px;
+     }
 
      
   }
