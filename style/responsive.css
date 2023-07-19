@@ -201,6 +201,9 @@
      .main-container{
           flex-direction: column-reverse;
      }
+     .gamer-container{
+          margin-top: 340px;
+     }
      .logo {
           margin-bottom: 30px;
      }
