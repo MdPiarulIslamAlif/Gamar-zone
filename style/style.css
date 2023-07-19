@@ -319,38 +319,8 @@ nav li a{
 }
 /* gaming link or button  section end form here */
 
-/* footer section style start form here */
-/* .footer-bc{
-     padding: 120px 0;
-     background: #0B0223;
-}
-.footer-bc .footer-logo{
-     display: flex;
-     justify-content: center;
-     gap: 20px;     
-    
-}
-.footer-bc .footer-logo .header-title{
-     color: #FFF; 
-}
-.support, .social-icon, .Terms-and-Conditions{
-     margin-top: 4rem;
-     display: flex;
-     justify-content: center;
-     gap: 4rem;   
-}
-.support .primary-description{
-     color: #fff;
-}
-.social-icon{
-     color: #FFF;
-     font-size: 50px;
-}
-.footer-bc .primary-description{
-     text-align: center;
-     margin-top: 4rem;
-} */
-/* footer section style end form here */
+
+/* link button section start form here */
 .link-bc{
      padding: 80px 0;
      background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -369,6 +339,7 @@ nav li a{
 
 }
 .link-item{
+     width: 100%;
      height: 70px; 
      border-radius: 50px;
      background-color: #FFF;
@@ -380,6 +351,9 @@ nav li a{
      gap: 1rem;
      padding-left: 5px;
      padding-top: 5px;
+}
+.icon-img .primary-title{
+     font-size: 0.8rem;
 }
 #link-item-1{
      grid-column: 1/3;
@@ -408,9 +382,37 @@ nav li a{
 #link-item-9{
      grid-column: 8/10;
 }
+/* link button section start form here */
 
-/* .link{
-     max-width: 1440px;
-     margin: 0 auto;
-} */
-
+/* footer section style start form here */
+.footer-bc{
+     padding: 120px 0;
+     background: #0B0223;
+}
+.footer-bc .footer-logo{
+     display: flex;
+     justify-content: center;
+     gap: 20px;     
+    
+}
+.footer-bc .footer-logo .header-title{
+     color: #FFF; 
+}
+.support, .social-icon, .Terms-and-Conditions{
+     margin-top: 4rem;
+     display: flex;
+     justify-content: center;
+     gap: 4rem;   
+}
+.support .primary-description{
+     color: #fff;
+}
+.social-icon{
+     color: #FFF;
+     font-size: 50px;
+}
+.footer-bc .primary-description{
+     text-align: center;
+     margin-top: 2rem;
+} 
+/* footer section style end form here */
