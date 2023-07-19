@@ -4,7 +4,8 @@
      nav,
      nav>ul,
      .gamer-container,
-     .box-container  
+     .box-container,
+     .paly-instant-container  
      {
           flex-direction: column;
      }
@@ -38,6 +39,27 @@
      .box-item{
           margin-bottom: 70px;
      }
+     .paly-content{
+          width: 80%;
+          margin-left: 0;
+          margin-bottom: 40px;
+     }
+
+     .play-img{
+          width: 75%;
+          padding-left: 0;
+     }
+     .play-img .main-img {
+          width: 100%;
+        }
+     .my-toking {
+          left: -46px;
+          bottom: -55px;
+          width: 35%;
+     }
+     /* .paly-instant-container {
+          gap: 67px;
+     } */
 
      
 }
@@ -47,16 +69,20 @@
   @media screen and (min-width:576px) and (max-width:992px){
      nav,
      nav>ul,
-     .box-container 
+     .box-container,
+     .paly-instant-container 
     
      {
           flex-direction: column;
      }
      ul li{
-          margin-bottom: 10px;
+          margin-bottom: 20px;
      }
      .main-container{
           flex-direction: column-reverse;
+     }
+     .logo {
+          margin-bottom: 30px;
      }
      .banner-img img{
           width: 100%;
@@ -73,8 +99,22 @@
      .bc-containe{
           height: 600px;
      }
+     .bc--gamer-container {
+          padding: 20px;
+        }
      .box-item{
           margin-bottom: 70px;
+     }
+     .paly-content {
+          width: 62%;
+          margin-left: 150px;
+      }
+     .paly-instant-container {
+          gap: 70px;
+     }
+     .play-img {
+          width: 60%;
+          padding-left: 160px;
      }
 
      

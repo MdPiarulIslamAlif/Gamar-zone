@@ -239,4 +239,46 @@ nav li a{
 }
 
 /* online style end form here */
+/* play instal style start form here */
+.play-bc-container{
+     max-width: 1540px;
+     margin: 120px auto;
+}
+.paly-instant-container{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+}
+.paly-content{
+     width: 30%;
+     margin-left: 300px;
+}
+.play-img .main-img{
+     width: 100%;
+}
+.play-img{
+     width:50%;
+     padding-left: 200px;
+     position: relative;
+}
+
+.my-toking{
+     width: 30%;
+     position: absolute;
+     left: 100px;
+     bottom: -80px;
+}
+.play-heading{
+     color: #0B0223;
+     font-size: 3rem;
+     font-weight: 700;  
+     margin-bottom: 10px; 
+}
+.paly-instant-container .play-heading span{
+     color: #F948B2 
+      
+}
+
+/* play instal style end form here */
+
 
