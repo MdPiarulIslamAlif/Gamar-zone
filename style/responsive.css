@@ -25,12 +25,14 @@
      .text-content{
           width: 100%;
           margin-top: 100px;
+          padding-left: 20px;
      }
      .bc-containe{
           height: 530px;
      }
      .gamer-imag{
           width: 100%;
+          margin-top: 240px;
      }
      .gamer-content{
           width: 98%;
