@@ -42,6 +42,11 @@ nav li a{
      color: #3C354F;
      font-size: 1.1rem;
      font-weight: 500;    
+} 
+ul li img{
+     width: 20px;
+     height: 20px;
+     object-fit: cover;
 }
 
 .logo{
@@ -51,7 +56,6 @@ nav li a{
 }
 .header-title{
      color: #0B0223;
-     font-family: Work Sans;
      font-size: 45px;
      font-style: normal;
      font-weight: 700;
@@ -64,13 +68,18 @@ nav li a{
 .header-container{
     display: flex;
 }
+.nav-btn .fa-youtube-play, .fa-tiktok{
+     margin-left: 10px;
+     
+}
 .nav-btn{
      padding: 15px 25px;     
      border-radius: 8px;
      background: rgba(11, 2, 35, 0.10);   
      color: #3C354F;
      font-size: 1.1rem;
-     font-weight: 500;     
+     font-weight: 500; 
+     margin-left: 10px;
 }
 /* header style end form here */
 /* main section start form here */
@@ -228,6 +237,34 @@ nav li a{
 .box-item{
      width: 342px;
      height: 400px;   
+     position: relative;
+}
+.video-clip-ing{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:rgba(34, 33, 33, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;
+}
+.video-clip-ing:hover{
+     opacity: 1;
+}
+.video-clip-ing .watch-now{
+     font-size: 20px;
+     color: #F948B2;
+     text-transform: capitalize;
+}
+.clip-art{
+     width: 100px;
+     height: 100px;
+     
 }
 .box-item .img-border-ol:hover{
      border: 1px solid #F948B2;
@@ -410,6 +447,9 @@ nav li a{
      justify-content: center;
      padding-bottom: 80px;
 }
+.copy-right .primary-description{
+     text-align: center;
+}
 .support-container{
      max-width: 1440px;
      margin: 0 auto;
@@ -478,8 +518,7 @@ nav li a{
 }
 #item-13{
      grid-column: 2/ 5;
-     width: 100%;
-     object-fit: cover;
+    
 }
 #item-14{
      grid-column: 5/ 7;
