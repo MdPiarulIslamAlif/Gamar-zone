@@ -358,6 +358,7 @@ nav li a{
 .link-container{
      max-width: 1440px;
      margin: 0 auto;
+     padding-left: 150px;
      display: grid;
      grid-template-columns: repeat(12, 1fr);
      grid-template-rows: repeat(2, 1fr);
